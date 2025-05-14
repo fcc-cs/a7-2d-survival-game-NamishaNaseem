@@ -26,11 +26,11 @@ func _process(delta):
 func _on_pickable_area_body_entered(body):
 	if body.has_method("player"):
 		player_in_area = true
+		player = body
 
 func _on_pickable_area_body_exited(body: Node2D) -> void:
 	if body.has_method("player"):
 		player_in_area = false
-		player = body
 
 func _on_growth_timer_timeout():
 	if state == "no apples":
