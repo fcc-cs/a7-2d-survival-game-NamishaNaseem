@@ -342,7 +342,7 @@ zoom = Vector2(2.5, 2.5)
 limit_left = -516
 limit_top = -315
 limit_right = 275
-limit_bottom = 275
+limit_bottom = 1000
 
 [node name="Inv_UI" parent="." instance=ExtResource("4_s0mqp")]
 offset_left = -42.0
