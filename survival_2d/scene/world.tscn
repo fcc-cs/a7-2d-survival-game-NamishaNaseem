@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=4 uid="uid://ctyng28mnmk86"]
+[gd_scene load_steps=18 format=4 uid="uid://ctyng28mnmk86"]
 
 [ext_resource type="PackedScene" uid="uid://br253fkgiuvw5" path="res://scene/player.tscn" id="1_ypo14"]
 [ext_resource type="Texture2D" uid="uid://givia6dv61tv" path="res://art/environment/survivalgame-terrian-defult.png" id="2_bsobt"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://u34lhio6v64d" path="res://scene/stick_collectable.tscn" id="7_poccd"]
 [ext_resource type="PackedScene" uid="uid://bnyipwf755m20" path="res://scene/slime.tscn" id="8_4ociy"]
 [ext_resource type="PackedScene" uid="uid://dbsp1lkuao15h" path="res://scene/world_2.tscn" id="9_pv5cb"]
+[ext_resource type="PackedScene" uid="uid://dltsd4cv8cn1j" path="res://scene/npc.tscn" id="10_0mfvq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o5r2r"]
 texture = ExtResource("2_bsobt")
@@ -321,3 +322,5 @@ position = Vector2(164, -10)
 
 [node name="slime2" parent="." instance=ExtResource("8_4ociy")]
 position = Vector2(-8, 154)
+
+[node name="npc" parent="." instance=ExtResource("10_0mfvq")]
