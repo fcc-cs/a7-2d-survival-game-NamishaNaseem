@@ -3,6 +3,8 @@ extends CharacterBody2D
 var speed = 50
 
 var health = 100
+var max_health = 100
+var min_health = 0
 
 var dead = false
 var player_in_area = false
@@ -40,7 +42,7 @@ func _on_detection_area_body_exited(body):
 func _on_hitbox_area_entered(area):
 	var damage
 	if area.has_method("arrow_deal_damage"):
-		damage = 50
+		damage = 30
 		take_damage(damage)
 
 func take_damage(damage):
