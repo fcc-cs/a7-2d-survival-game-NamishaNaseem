@@ -11,6 +11,8 @@ offset_bottom = 40.0
 script = ExtResource("1_xsr2v")
 
 [node name="quest1_ui" type="NinePatchRect" parent="."]
+visible = false
+layout_mode = 0
 offset_left = -41.0
 offset_top = -49.0
 offset_right = 38.0
@@ -51,6 +53,7 @@ text = "yes"
 
 [node name="noButton1" type="Button" parent="quest1_ui"]
 modulate = Color(0.92549, 0.0588235, 0.109804, 1)
+layout_mode = 0
 offset_left = 51.0
 offset_top = 29.0
 offset_right = 85.0
@@ -60,6 +63,7 @@ text = "no"
 
 [node name="no_quest" type="NinePatchRect" parent="."]
 visible = false
+layout_mode = 0
 offset_left = -41.0
 offset_top = -49.0
 offset_right = 38.0
@@ -90,6 +94,7 @@ text = "no current quest please come back later!"
 
 [node name="finished_quest" type="NinePatchRect" parent="."]
 visible = false
+layout_mode = 0
 offset_left = -41.0
 offset_top = -49.0
 offset_right = 38.0

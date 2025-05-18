@@ -324,3 +324,5 @@ position = Vector2(164, -10)
 position = Vector2(-8, 154)
 
 [node name="npc" parent="." instance=ExtResource("10_0mfvq")]
+
+[connection signal="stick_collected" from="TileMapLayer/TileMapLayer/y-sort/player" to="npc" method="_on_player_stick_collected"]

@@ -91,3 +91,7 @@ func _on_dialogue_dialogue_finished():
 func _on_npc_quest_quest_menu_closed():
 	is_chatting = false
 	is_roaming = true
+
+
+func _on_player_stick_collected():
+	$npc_quest.stick_collected()
